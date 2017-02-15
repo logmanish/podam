@@ -1,4 +1,4 @@
 test:
   post:
-    - src/test
-    - src/test/resources
+    - src/test/*/*.xml
+    - src/test/resources/*.xml
