@@ -1,11 +1,11 @@
 machine:
-  timezone:
-    America/New_York
-
-  java:
-    version: oraclejdk8
+  ruby:
+    version: rbx-2.2.6
 
 general:
+  artifacts:
+    - $CIRCLE_TEST_REPORTS
+    - target
   branches:
     only:
       - develop
