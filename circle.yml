@@ -1,6 +1,6 @@
 machine:
-  ruby:
-    version: rbx-2.2.6
+  java:
+    version: oraclejdk7
 
 general:
    artifacts:
