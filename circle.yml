@@ -1,4 +1,4 @@
 test:
   post:
-    - mvn integration-test
-    - mvn verify
+    - src/test
+    - src/test/resources
