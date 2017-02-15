@@ -11,6 +11,8 @@ general:
       - develop
 
 test:
+  override:
+    - mvn install -s pom.xml
   post:
     - mkdir -p $CIRCLE_TEST_REPORTS/junit/
     - find . -type f -regex ".*/target/surefire-reports/.*xml" -exec cp {} $CIRCLE_TEST_REPORTS/junit/ \;
