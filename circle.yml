@@ -1,2 +1,8 @@
-general:
-  build_dir: src
+machine:
+  version: 
+    - oraclejdk8
+    - oraclejdk7
+    
+test:
+  post:
+    - mvn clean verify
