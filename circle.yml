@@ -5,10 +5,6 @@ machine:
   java:
     version: oraclejdk8
 
-dependencies:
-  pre:
-    - sudo rsync -r --include=*/ --include=*.jar --exclude=* .jdk-overlay/jre $JAVA_HOME
-
 general:
   branches:
     only:
