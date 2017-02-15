@@ -1,3 +1,4 @@
 test:
   post:
-    - mvn clean verify
+    - mvn integration-test
+    - mvn verify
