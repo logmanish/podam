@@ -1,7 +1,8 @@
 machine:
-  version: 
-    - oraclejdk8
-    - oraclejdk7
+  java:
+    version: 
+      - oraclejdk8
+      - oraclejdk7
     
 test:
   post:
