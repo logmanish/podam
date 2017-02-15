@@ -11,6 +11,6 @@ general:
       - develop
 
 test:
-  override:
+  post:
     - mvn clean verify
 
