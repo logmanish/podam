@@ -1,9 +1,3 @@
-machine:
-  java:
-    version: 
-      oraclejdk8
-      oraclejdk7
-    
 test:
   post:
     - mvn clean verify
